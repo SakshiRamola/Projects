@@ -1,12 +1,13 @@
 package com.atg.assingment.datacollector.dao;
 
-import java.io.IOException;
-import java.util.List;
-
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
+import java.util.Set;
 
 public interface ICalendarDao {
-	
-	public List<String> getAllGameTypesForDay() throws JsonParseException, JsonMappingException, IOException ;
+
+	/**
+	 *  Makes a request to ATG calendar APi (https://www.atg.se/services/racinginfo/v1/api/calendar/day)
+	 *  and returns all Bettype available for today.
+	 * @return Set containing name of the BetTypes running today
+	 */
+	Set<String> getAllGameTypesForDay();
 }

@@ -11,12 +11,12 @@ import org.springframework.web.client.RestTemplate;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SpringBootApplication
-public class Application {
+public class SpringBootWebApplication {
 
-	private static final Logger log = LoggerFactory.getLogger(Application.class);
+	private static final Logger log = LoggerFactory.getLogger(SpringBootWebApplication.class);
 
 	public static void main(String args[]) {
-		SpringApplication.run(Application.class);
+		SpringApplication.run(SpringBootWebApplication.class);
 	}
 	
 	@Bean

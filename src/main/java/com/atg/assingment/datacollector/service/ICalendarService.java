@@ -1,9 +1,7 @@
 package com.atg.assingment.datacollector.service;
 
-import java.util.List;
+import java.util.Set;
 
 public interface ICalendarService {
-	
-	List<String> getAllGameTypesForDay();
-
+	Set<String> getAllGameTypesForDay();
 }

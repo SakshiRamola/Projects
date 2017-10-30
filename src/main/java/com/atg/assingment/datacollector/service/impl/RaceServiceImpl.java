@@ -18,23 +18,10 @@ public class RaceServiceImpl implements IRaceService{
 	private IRaceDao raceDao;
 	@Override
 	public List<Race> getRaces(String gameId) {
-		
-		try {
-			return raceDao.getRaces(gameId).getUpcoming();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return null;
+		return raceDao.getRaces(gameId).getUpcoming();
 	}
 	@Override
 	public String getRaceInfo(String raceId) {
-		try {
-			return raceDao.getRaceInfo(raceId);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return null;
+		return raceDao.getRaceInfo(raceId);
 	}
 }
