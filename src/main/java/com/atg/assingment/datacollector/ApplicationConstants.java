@@ -1,7 +1,7 @@
 package com.atg.assingment.datacollector;
 
 /**
- * @author nimag
+ * @author sakshi
  */
 public class ApplicationConstants {
 

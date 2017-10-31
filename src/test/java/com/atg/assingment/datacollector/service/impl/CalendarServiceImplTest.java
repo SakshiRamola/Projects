@@ -10,7 +10,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import static org.mockito.Mockito.verify;
 
 /**
- * @author nimag
+ * @author sakshi
  */
 @RunWith(MockitoJUnitRunner.class)
 public class CalendarServiceImplTest {

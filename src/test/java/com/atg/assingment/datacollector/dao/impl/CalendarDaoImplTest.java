@@ -24,7 +24,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 /**
- * @author nimag
+ * @author sakshi
  */
 @RunWith(MockitoJUnitRunner.class)
 public class CalendarDaoImplTest {
